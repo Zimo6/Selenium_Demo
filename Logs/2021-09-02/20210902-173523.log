@@ -1,0 +1,27 @@
+2021-09-02 17:35:23,634 - INFO test_001_baiduSearch.py [line:22]: 
+WebDriver 正在初始化...
+2021-09-02 17:35:24,388 - INFO test_001_baiduSearch.py [line:24]: 打开链接: https://www.baidu.com...
+2021-09-02 17:35:24,679 - INFO test_001_baiduSearch.py [line:29]: WebDriver 初始化完成！
+2021-09-02 17:35:24,684 - INFO baiduIndex.py [line:24]: 【===搜索操作===】
+2021-09-02 17:35:24,685 - INFO basePage.py [line:38]: 等待"搜索框"元素,定位方式:('id', 'kww')
+2021-09-02 17:35:56,367 - ERROR basePage.py [line:45]: 等待"搜索框"元素失败,定位方式:('id', 'kww')
+Traceback (most recent call last):
+  File "E:\Python-Projects\Selenium_Demo_byCSQ\Common\basePage.py", line 41, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-09-02 17:35:56,747 - INFO basePage.py [line:232]: 截屏成功,图片路径为E:\Python-Projects\Selenium_Demo_byCSQ\Screenshots\2021-09-02\等待元素[搜索框]出现异常_20210902_173556.png
+2021-09-02 17:35:57,173 - INFO baiduIndex.py [line:24]: 【===搜索操作===】
+2021-09-02 17:35:57,173 - INFO basePage.py [line:38]: 等待"搜索框"元素,定位方式:('id', 'kww')
+2021-09-02 17:36:28,789 - ERROR basePage.py [line:45]: 等待"搜索框"元素失败,定位方式:('id', 'kww')
+Traceback (most recent call last):
+  File "E:\Python-Projects\Selenium_Demo_byCSQ\Common\basePage.py", line 41, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-09-02 17:36:29,139 - INFO basePage.py [line:232]: 截屏成功,图片路径为E:\Python-Projects\Selenium_Demo_byCSQ\Screenshots\2021-09-02\等待元素[搜索框]出现异常_20210902_173628.png
+2021-09-02 17:36:34,540 - INFO test_001_baiduSearch.py [line:33]: WebDriver 成功退出...
